@@ -14,6 +14,7 @@ export namespace OGIT {
     'ogit/_is-deleted': boolean;
     'ogit/_graphtype': string;
     'ogit/_xid': string;
+    'ogit/_deployed': boolean;
   }
 
   export interface Node extends SafeNode {
